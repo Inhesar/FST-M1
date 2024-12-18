@@ -1,17 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<projectDescription>
-	<name>Hello</name>
-	<comment></comment>
-	<projects>
-	</projects>
-	<buildSpec>
-		<buildCommand>
-			<name>org.eclipse.jdt.core.javabuilder</name>
-			<arguments>
-			</arguments>
-		</buildCommand>
-	</buildSpec>
-	<natures>
-		<nature>org.eclipse.jdt.core.javanature</nature>
-	</natures>
-</projectDescription>
+package dayone;
+
+public class Hello {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String name="Syed Inhesar Nabi";
+		int num1=10;
+		int num2=20;
+		
+		System.out.println(name);
+		System.out.println(num1+num2);
+		System.out.println(num2-num1);
+		System.out.println(num1<num2);
+		System.out.println("Hello World..day one program");
+	}
+
+}
