@@ -1,0 +1,17 @@
+CREATE TABLE salesman (
+    salesman_id int,
+    salesman_name varchar2(20),
+    salesman_city varchar2(20),
+    commission int
+);
+
+desc salesman
+
+Insert into salesman values (5001, 'James Hoog', 'New Your', 15) ;
+Insert into salesman values (5002, 'Nail K', 'Paris', 13) ;
+Insert into salesman values (5005, 'Pit Alex', 'London', 11) ;
+Insert into salesman values (5006, 'Mclayon', 'Dubai', 14) ;
+Insert into salesman values (5007, 'Paul A', 'Rome', 13) ;
+Insert into salesman values (5003, 'Bill Gates', 'Dubai', 12) ;
+
+select * from salesman;
